@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/@puresamari/spb-core/lib/config.schema.json",
+  "output": "dist",
+  "files": [
+    "assets/*",
+    "styles.css",
+    "index.pug",
+    "index.ts"
+  ],
+  "root": "src",
+  "compilers": {
+    "postcss": {
+      "plugins": [
+        "tailwindcss",
+        "autoprefixer"
+      ]
+    }
+  }
+}

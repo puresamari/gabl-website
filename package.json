@@ -1,0 +1,17 @@
+{
+  "name": "gambl-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "spb dev-server",
+    "build": "spb build"
+  },
+  "author": "Simon Rothert <puresamari@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@puresamari/spb": "^0.8.5",
+    "tailwindcss": "^3.0.7"
+  }
+}
